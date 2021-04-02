@@ -22,3 +22,7 @@ variable "access_ip" {}
 variable "db_subnet_group" {
   default = true
 }
+
+variable "aws_secret_access_key" {}
+
+variable "aws_access_key_id" {}
