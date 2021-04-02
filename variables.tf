@@ -7,7 +7,7 @@ variable "public_cidrs" {
   default = ["10.124.1.0/24", "10.124.3.0/24"]
 }
 variable "private_cidrs" {
-  default = ["10.124.2.0/24", "10.124.4.0/24", "10.143.6.0/24"]
+  default = ["10.124.2.0/24", "10.124.4.0/24", "10.124.6.0/24"]
 }
 variable "public_sn_count" {
   default = 2
